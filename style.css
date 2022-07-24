@@ -27,6 +27,7 @@ a:hover{
     justify-content: space-between;
     padding: 6px;
     align-items: center;
+    height: 48px;
 }
 
 .header-left{
@@ -73,12 +74,12 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 590px;
+    height: 450px;
 }
 
 h1{
     font-size: 100px;
-    margin: 35px 0;
+    margin: 200px 0 35px 0;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -93,7 +94,7 @@ h1 span:nth-child(6) {color:#ea4335;}
 /* 검색창 꾸미기 */
 form{
     display: flex;
-    border: 2px solid rgb(223, 225, 229);
+    border: 1px solid rgb(223, 225, 229);
     width: 650px;
     height: 40px;
     border-radius: 25px;
@@ -139,4 +140,45 @@ form .bi, .search-bar{
 
 .buttons a{
     color: rgb(46,50 ,53);
+}
+/* ----------------------공백 채우는 부분부분--------------------------- */
+.space{
+    height: 360px;
+}
+/* ----------------------footer부분--------------------------- */
+
+footer{
+    background-color: rgb(242, 242, 242);
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(110, 115, 120);
+}
+
+footer a{
+    color: rgb(110, 115, 120);
+    font-size: 13px;
+}
+.kor{
+    border-bottom: 1px solid rgb(218, 220, 224);
+}
+.kor p{
+    margin: 13px 0 13px 40px;
+    font-size: 15px;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu ul{
+    margin: 13px 0;
+}
+.footer-menu li{
+    margin-right: 20px;
+}
+.footer-menu ul:nth-child(2){
+    padding-right: 20px;
 }
